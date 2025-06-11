@@ -7,15 +7,16 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
   <!-- Css starts Here -->
-
   <link rel="stylesheet" href="/css/style.css" />
-  <!-- Phone Css Starts Here -->
 
+  <!-- Phone Css Starts Here -->
   <link rel="stylesheet" media="screen and (max-width:1170px)" href="css/phone.css" />
 
-  <!-- Favicon Starts Here -->
+  <!-- Font Awesome CDN Starts Here -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-  <link rel="shortcut icon" href="/images/main logo1.png" type="image/x-icon" />
+  <!-- Favicon Starts Here -->
+  <link rel="shortcut icon" href="/images/logo0.png" type="image/x-icon" />
 
   <!-- Google Fonts Starts Here -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -25,13 +26,13 @@
 
   <!-- Title Starts Here -->
 
-  <title>Best Home Made Food Delivery in Karachi | MyOnline Meal.com</title>
+  <title>Best Home Made Food Delivery in Karachi | MyOnline Meal</title>
 </head>
 
 <body>
   <nav id="navbar">
     <div id="nav-logo">
-      <img src="images/main logo1.png" alt="MyOnline Meal.com" />
+      <img src="images/logo0.png" alt="MyOnline Meal.com" />
     </div>
 
     <ul>
@@ -40,16 +41,18 @@
       <li class="items"><a href="#clients">Clients</a></li>
       <li class="items"><a href="#contact">Contact Us</a></li>
     </ul>
+
+    <div class="burger">
+      <i class="fa-solid fa-bars"></i>
+    </div>
   </nav>
 
   <section id="home">
     <h1 class="h-primary">Welcome To My Online Meal</h1>
 
-    <p>
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur
-      suscipit molestiae ratione,
+    <p class="first-home-text">Enjoy delicious, homemade meals crafted with care and delivered right to your doorstep
     </p>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+    <p class="second-home-text">Each dish is freshly made to bring the warmth and taste</p>
 
     <button class="btn">Order Now</button>
   </section>
@@ -59,43 +62,71 @@
 
     <div id="services">
       <div class="box">
-        <img src="/images/logo1.png" alt="Food Ordering" />
+        <div class="box-img">
+          <img src="/images/logo1.png" alt="Food Ordering" />
+        </div>
         <div class="border-box"></div>
         <h2 class="h-secondary center"><a href="#">Food Ordering</a></h2>
-        <p class="center">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Praesentium, nam aspernatur. Tempora expedita nihil est nesciunt
-          libero.Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Praesentium, nam aspernatur. Tempora expedita nihil est nesciunt
-          libero.
-        </p>
+        <p class="center">Craving something delicious and homemade? Our food ordering service lets you browse a variety
+          of freshly prepared meals from the comfort of your home. Whether you're in the mood for spicy curries, savory
+          snacks, or wholesome meals. Just a few clicks and your favorite dishes are on the way</p>
       </div>
 
       <div class="box">
-        <img src="/images/logo2.png" alt="Food Catering" />
+        <div class="box-img">
+          <img src="/images/logo2.png" alt="Food Catering" />
+        </div>
         <div class="border-box"></div>
         <h2 class="h-secondary center"><a href="#">Food Catering</a></h2>
-        <p class="center">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Praesentium, nam aspernatur. Tempora expedita nihil est nesciunt
-          libero.Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Praesentium, nam aspernatur. Tempora expedita nihil est nesciunt
-          libero.
-        </p>
+        <p class="center">Planning an event? Make it unforgettable with our homemade food catering service. We offer a
+          wide range of dishes to suit every occasion—from small gatherings to large celebrations. All meals are
+          prepared with fresh ingredients and authentic recipes, ensuring both taste and quality</p>
       </div>
 
       <div class="box">
-        <img src="/images/logo3.png" alt="Food Delivering" />
+        <div class="box-img">
+          <img src="/images/logo3.png" alt="Food Delivering" />
+        </div>
         <div class="border-box"></div>
         <h2 class="h-secondary center"><a href="#">Food Delivering</a></h2>
-        <p class="center">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Praesentium, nam aspernatur. Tempora expedita nihil est nesciunt
-          libero.Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Praesentium, nam aspernatur. Tempora expedita nihil est nesciunt
-          libero.
-        </p>
+        <p class="center">No time to cook? We deliver freshly made homemade meals straight to your doorstep—quickly,
+          safely, and always with care. Our professional delivery team ensures your food arrives hot and in perfect
+          condition. Whether it’s lunch, dinner, or a snack, you can count on us for reliable service.</p>
       </div>
+
+      <div class="box">
+        <div class="box-img">
+          <img src="/images/logo8.png" alt="Food Delivering" />
+        </div>
+        <div class="border-box"></div>
+        <h2 class="h-secondary center"><a href="#">Custom Meal Plans</a></h2>
+        <p class="center">Have dietary goals or preferences? Our custom meal plans are designed just for you! Whether
+          you're looking for high-protein options, diabetic-friendly dishes, or a vegetarian lifestyle, we prepare meals
+          to match your needs. Every dish is balanced, nutritious, and cooked fresh daily</p>
+      </div>
+
+      <div class="box">
+        <div class="box-img">
+          <img src="/images/logo9.png" alt="Food Delivering" />
+        </div>
+        <div class="border-box"></div>
+        <h2 class="h-secondary center"><a href="#">Special Occasion Meals</a></h2>
+        <p class="center">Make your celebrations extra special with our handcrafted occasion meals. From festive feasts
+          to romantic dinners, we prepare traditional and seasonal dishes that suit your event perfectly. Whether it's a
+          birthday, anniversary, or family gathering & etc we add a touch of homemade flavor</p>
+      </div>
+
+      <div class="box">
+        <div class="box-img">
+          <img src="/images/logo10.png" alt="Food Delivering" />
+        </div>
+        <div class="border-box"></div>
+        <h2 class="h-secondary center"><a href="#">Subscription Service</a></h2>
+        <p class="center">Tired of deciding what to eat every day? Try our convenient homemade meal subscription
+          service. Choose a weekly or monthly plan and receive a variety of fresh, home-style meals right at your
+          doorstep. Enjoy consistency, time-saving convenience, and the comforting taste of familiar dishes</p>
+      </div>
+
     </div>
   </section>
 
@@ -198,7 +229,7 @@
   <footer id="footer">
     <div class="footer-first-part">
       <p>
-        Copyright &copy; www.myonlinemeal.com All Rights Reserved!
+        Copyright &copy; My Online Meal All Rights Reserved!
       </p>
     </div>
 
