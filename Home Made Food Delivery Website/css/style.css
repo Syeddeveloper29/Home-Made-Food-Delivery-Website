@@ -17,12 +17,12 @@ html {
     align-items: center;
     justify-content: space-between;
     align-items: center;
-    max-height: 4rem;
-    padding-left: 3rem;
-    z-index: 1;
+    max-height: 4.5rem;
+    z-index: 5;
     background-color: rgba(184, 180, 180, 0.295);
     padding-left: 1.5rem;
     box-shadow: 0 0.1rem 0.5rem 0.1rem #999898bf;
+    position: sticky;
 }
 
 .sticky {
@@ -40,6 +40,7 @@ html {
     justify-content: center;
     width: 6rem;
     cursor: pointer;
+    margin-left: 2rem;
 }
 
 #nav-logo img {
@@ -66,7 +67,7 @@ html {
     color: #000000;
     padding: 6px 16px;
     text-decoration: none;
-    border-radius: 10px;
+    border-radius: 0.6rem;
     font-weight: 600;
     transition: all 0.4s ease;
 }
@@ -76,16 +77,32 @@ html {
     background-color: #fff;
 }
 
+#navbar .burger{
+    position: absolute;
+    top: 1.43rem;
+    right: 4rem;
+    display: none;
+}
+
+.burger i{
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
 /* Home Section */
 
 #home {
     display: flex;
     flex-direction: column;
-    padding: 5px 200px;
+    padding: 1rem 2rem;
     align-items: center;
     justify-content: center;
-    height: 400px;
+    height: 35rem;
     background-color: rgba(37, 36, 36, 0.308);
+    position: relative;
+    top: 0;
+
 }
 
 #home::before {
@@ -94,7 +111,7 @@ html {
     top: 0;
     left: 0;
     background: url(/images/bg2.jpg) no-repeat center center/cover;
-    height: 464px;
+    height: 100%;
     width: 100%;
     opacity: 0.85;
     z-index: -1;
@@ -113,6 +130,15 @@ html {
     font-family: 'Bree Serif', serif;
 }
 
+#home .first-home-text{
+    padding-top: 0.5rem;
+}
+
+#home .second-home-text{
+    padding-top: 0.7rem;
+    padding-bottom: 1.4rem;
+}
+
 /* Services Section */
 #services-container {
     display: flex;
@@ -126,6 +152,7 @@ html {
     align-items: center;
     justify-content: center;
     padding-top: 4rem;
+    flex-wrap: wrap;
 }
 
 .box {
@@ -134,39 +161,55 @@ html {
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 1rem;
     border: 0.1rem solid red;
     justify-content: center;
     align-items: center;
-    padding: 2rem 1.4rem;
+    padding: 1.5rem 1.8rem;
     border-radius: 0.6rem;
     background-color: rgb(240, 233, 233);
 }
 
-.box img {
+.box .box-img {
     width: 12rem;
+    padding-bottom: 0.5rem;
+    display: block;
+    overflow:hidden;
+}
+
+.box-img img{
+    width: 100%;
+    transition: transform 0.4s ease;
+}
+
+.box-img img:hover {
+    transform: scale(1.3);
 }
 
 .box .border-box{
-    width: 23.7rem;
+    width: 23.8rem;
     background-color: #ff0000;
-    height: 0.09rem;
+    height: 0.06rem;
 }
 
-.box p {
-    font-size: 1.0rem;
-    font-family: 'Bree Serif', serif;
+.box h2{
+    padding-top: 1.5rem;
+    font-size: 1.7rem;
 }
 
-h2 a {
+.box h2 a {
     text-decoration: none;
-    color: black;
+    color: #000000;
     transition: color 0.4s ease;
 }
 
 h2 a:hover {
     text-decoration: underline;
-    color: red;
+    color: #ff0000;
+}
+
+.box p {
+    font-size: 1.0rem;
+    font-family: 'Bree Serif', serif;
 }
 
 /* Client Section */
@@ -301,16 +344,15 @@ textarea {
 #subscribe-us{
     display: flex;
     flex-direction: column;
-    padding: 4rem 2rem;
+    padding: 4rem 2rem 6rem 2rem;
 }
 
 #subscribe-us .subscribe-container{
     display: flex;
     flex-direction: column;
-    padding-top: 4rem;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 .subscribe-container .subscribe-sub-heading h4{
