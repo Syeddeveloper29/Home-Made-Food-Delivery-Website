@@ -17,12 +17,12 @@ html {
     align-items: center;
     justify-content: space-between;
     align-items: center;
-    max-height: 4.5rem;
+    max-height: 4rem;
     z-index: 5;
     background-color: rgba(184, 180, 180, 0.295);
     padding-left: 1.5rem;
     box-shadow: 0 0.1rem 0.5rem 0.1rem #999898bf;
-    position: sticky;
+    height: 100%;
 }
 
 .sticky {
@@ -38,7 +38,7 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 6rem;
+    width: 5rem;
     cursor: pointer;
     margin-left: 2rem;
 }
@@ -79,7 +79,7 @@ html {
 
 #navbar .burger{
     position: absolute;
-    top: 1.43rem;
+    top: 1.75rem;
     right: 4rem;
     display: none;
 }
@@ -125,7 +125,7 @@ html {
 
 #home p {
     color: white;
-    font-size: 1.2rem;
+    font-size: clamp(0.92rem, 1.5vw, 1.2rem);
     text-align: center;
     font-family: 'Bree Serif', serif;
 }
@@ -193,7 +193,6 @@ html {
 
 .box h2{
     padding-top: 1.5rem;
-    font-size: 1.7rem;
 }
 
 .box h2 a {
@@ -226,6 +225,7 @@ h2 a:hover {
     justify-content: space-evenly;
     gap: 2rem;
     padding-top: 4rem;
+    flex-wrap: wrap;
 }
 
 .client-item {
@@ -254,8 +254,9 @@ h2 a:hover {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    gap: 12rem;
+    gap: 5rem;
     padding-top: 4rem;
+    flex-wrap: wrap;
 }
 
 #contact-box .first-image-part {
@@ -438,14 +439,14 @@ textarea {
 /* Utility Classes */
 
 .h-primary {
-    font-size: 3.2rem;
+    font-size: clamp(2.1rem, 5vw, 3.2rem);
     padding: 12px;
     font-family: 'Bree Serif', serif;
 }
 
 .h-secondary {
     cursor: pointer;
-    font-size: 1.9rem;
+    font-size: 1.7rem;
     padding: 12px;
     font-family: 'Bree Serif', serif;
     text-decoration: none;
