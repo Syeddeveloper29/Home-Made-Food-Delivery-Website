@@ -13,7 +13,7 @@ const burger = document.querySelector('.burger');
 const icon = document.querySelector('.fa-bars');
 
 burger.addEventListener('click', () => {
-    const isOpen = navbar.classList.add('active');
+    const isOpen = navbar.classList.contains('active');
 
     if(!isOpen){
         navbar.classList.add('active');
@@ -25,7 +25,3 @@ burger.addEventListener('click', () => {
         }, 400);
     }
 });
-
-setTimeout( ()=> {
-
-})
