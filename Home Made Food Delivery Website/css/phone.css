@@ -29,42 +29,41 @@
     }
 }
 
-/* Home section */
-#home {
-    /* height: 404px; */
-    /* padding: 3px 28px; */
-}
-
-#home::before {
-    /* height: 460px; */
-}
-
-#home p {
-    /* font-size: 14px; */
-}
-
 /* Services section */
-#services {
-    /* flex-direction: column; */
-    /* margin-bottom: 15px; */
+@media only screen and (max-width: 444px){
+    .box .border-box {
+        width: 118.5%;
+    }
 }
 
-#services .box {
-    /* padding: 14px; */
-    /* margin: 2px 0px; */
-    /* margin-bottom: 20px; */
+@media only screen and (max-width: 418px){
+    .box .border-box {
+        width: 119.7%;
+    }
 }
 
-/* Clients section */
-
-#clients {
-    flex-wrap: wrap;
+@media only screen and (max-width: 394px){
+    .box .border-box {
+        width: 120.8%;
+    }
 }
 
-#clients img {
-    /* width: 66px; */
-    /* padding: 6px; */
-    /* height: auto; */
+@media only screen and (max-width: 378px){
+    .box .border-box {
+        width: 122%;
+    }
+}
+
+@media only screen and (max-width: 363px){
+    .box .border-box {
+        width: 124%;
+    }
+}
+
+@media only screen and (max-width: 323px){
+    .box .border-box {
+        width: 124%;
+    }
 }
 
 /* Contact section */
@@ -72,22 +71,4 @@
     #contact-box {
         padding-top: 2rem;
     }
-}
-
-/* Footer */
-
-.footer {
-    /* font-size: 14px; */
-}
-
-/* Utility Classes */
-
-.h-primary {
-    /* font-size: 26px; */
-}
-
-.btn {
-
-    /* font-size: 13px;
-    padding: 4px 8px; */
 }
