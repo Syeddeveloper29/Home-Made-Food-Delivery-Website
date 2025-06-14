@@ -7,7 +7,7 @@
         padding-bottom: 2rem;
         transition: all 0.4s ease;
         overflow: hidden;
-        max-height: 4.5rem;
+        max-height: 4rem;
     }
     
     #navbar.active {
@@ -15,17 +15,45 @@
     }
 
     #navbar #nav-logo {
-        margin-left: 0;
+        margin-left: 0.6rem;
     }
-
+    
     #navbar ul {
         flex-direction: column;
         justify-content: start;
         align-items: start;
+        padding-top: 1.2rem;
     }
 
     #navbar .burger{
         display: block;
+    }
+}
+
+@media only screen and (max-width: 542px){
+    #navbar {
+        padding-left: 0.8rem;
+    }
+
+    #navbar .burger{
+        right: 2.2rem;
+    }
+}
+
+/* Home section  */
+@media only screen and (max-width: 482px){
+    #home{
+        padding: 1rem 1rem;
+    }
+
+    #home h1{
+        padding: 0.75rem 0;
+    }
+}
+
+@media only screen and (max-width: 392px) {
+    #home {
+        padding: 1rem 0.8rem;
     }
 }
 
