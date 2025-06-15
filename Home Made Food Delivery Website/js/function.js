@@ -9,6 +9,7 @@ window.addEventListener('scroll', function() {
 });
 
 
+
 const burger = document.querySelector('.burger');
 const icon = document.querySelector('.fa-bars');
 
@@ -25,3 +26,18 @@ burger.addEventListener('click', () => {
         }, 400);
     }
 });
+
+
+
+const subscribeHeading = document.querySelector('#subscribe-heading');
+
+const changeSubscribeHeading = () => {
+    if(window.innerWidth <= 478){
+        subscribeHeading.textContent = `Stay Hungry for More!`;
+    }else{
+        subscribeHeading.textContent = `🍽️ Stay Hungry for More!`
+    }
+}
+
+window.addEventListener('load', changeSubscribeHeading);
+window.addEventListener('resize', changeSubscribeHeading);
