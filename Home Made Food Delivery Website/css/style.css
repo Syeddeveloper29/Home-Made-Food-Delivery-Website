@@ -359,7 +359,7 @@ textarea {
 }
 
 .subscribe-container .subscribe-sub-heading h4{
-    font-size: clamp(1.1rem, 2vw, 1.3rem);
+    font-size: clamp(1rem, 1.3vw, 1.3rem);
     text-align: center;
 }
 
@@ -415,6 +415,14 @@ textarea {
 
 .subscribe-container form button:hover{
     background: #bb0a0a;
+}
+
+.subscribe-container span {
+    font-size: 1rem;
+    text-align: left;
+    color: #ff0000;
+    margin-top: -1rem;
+    margin-left: -18.2rem;
 }
 
 /* Footer Section  */

@@ -106,6 +106,31 @@
 }
 
 /* Subscribe section */
+
+@media only screen and (max-width: 524px){
+    .subscribe-container span {
+        margin-left: -17.2rem;
+    }
+}
+
+@media only screen and (max-width: 514px){
+    .subscribe-container span {
+        margin-left: -16.2rem;
+    }
+}
+
+@media only screen and (max-width: 498px){
+    .subscribe-container span {
+        margin-left: -15.2rem;
+    }
+}
+
+@media only screen and (max-width: 485px){
+    .subscribe-container span {
+        margin-left: -14.5rem;
+    }
+}
+
 @media only screen and (max-width: 478px) {
     #subscribe-us {
         padding: 4rem 1.4rem 6rem 1.4rem;
@@ -118,6 +143,11 @@
 
     .subscribe-container form button {
         width: 9rem;
+    }
+
+    .subscribe-container span {
+        margin-left: 0;
+        margin-bottom: 0;
     }
 }
 
@@ -155,17 +185,17 @@
     }
 
     #footer .footer-first-part {
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 
     #footer .footer-second-part {
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 
     .footer-first-part p,
     .footer-second-part p {
-        font-size: clamp(0.82rem, 1.5vw, 1rem);
+        font-size: clamp(0.83rem, 1vw, 1rem);
     }
 }
