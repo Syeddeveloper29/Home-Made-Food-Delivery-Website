@@ -1,3 +1,4 @@
+// for sticky navbar
 const navbar = document.querySelector('#navbar');
 
 window.addEventListener('scroll', function () {
@@ -9,7 +10,7 @@ window.addEventListener('scroll', function () {
 });
 
 
-
+// for hamburger
 const burger = document.querySelector('.burger');
 const icon = document.querySelector('.fa-bars');
 
@@ -28,7 +29,7 @@ burger.addEventListener('click', () => {
 });
 
 
-
+// for heading change
 const subscribeHeading = document.querySelector('#subscribe-heading');
 
 const changeSubscribeHeading = () => {
@@ -44,6 +45,7 @@ window.addEventListener('resize', changeSubscribeHeading);
 
 
 
+// for subscribe form
 const scriptURL = 'https://script.google.com/macros/s/AKfycbw2xyA1na2uifS_w1QnmJXV8OG9iY2zoMUpxl7W_G0dJBZK9NpcbaarK1R4DbuKcq1sNQ/exec';
 const form = document.forms['submit-to-google-sheet'];
 const subscribeMessage = document.querySelector('.subscribe-last-text');
