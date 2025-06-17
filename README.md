@@ -1,23 +1,50 @@
-Homemade Food Delivery Website:
+# 🍽️ Homemade Food Delivery Website
 
-Welcome to the Homemade Food Delivery website repository! This project is a simple and elegant website built using HTML and CSS, designed for a service that delivers freshly cooked, homemade meals right to your doorstep.
+This is a fully responsive **Homemade Food Delivery Website** built with HTML, CSS, and JavaScript. It is designed to showcase a home-cooked meal delivery service with interactive features and user engagement elements.
 
-Project Overview:
+## 🔥 Features
 
-This website showcases the following section:
+- ✅ Fully responsive layout for all screen sizes
+- 🍔 Hamburger navigation menu (mobile friendly)
+- 🧾 Services section (Food Ordering, Catering, Delivery, etc.)
+- 👥 Client testimonials or logos section
+- 📬 Contact form — form submissions are sent directly to your email
+- 📩 "Subscribe Us" section — user emails are stored in a Google Sheet using Google Apps Script integration
+- 🎨 Clean and modern UI
 
-Home Section: An overview of the service, highlighting the benefits of homemade food.
-Services Section: A detailed view of the various dishes and meals available for delivery, with images and descriptions.
-Client Section: Information about our beloved clients.
-Contact Section: A contact form for customer inquiries and support.
+## 📁 Project Structure
 
-Features:
+/Home Made Food Delivery Website/
+│
+├── index.html
+├── css/
+│   └── style.css
+├── js/
+│   └── script.js
+├── images/
+│   └── (image files)
 
-Responsive Design: The website is designed to work seamlessly on all device sizes, from mobile to desktop.
-Simple UI: Clean and intuitive user interface, making it easy for customers to navigate and place orders.
-Custom CSS Styling: All styles are written from scratch using CSS, providing a unique and custom look.
+## 📧 Contact Form Integration
 
-Technologies Used:
+The contact form uses [Web3Forms](https://web3forms.com/)
 
-HTML5: For structuring the content and layout of the website.
-CSS3: For adding styles and responsive design to enhance the user experience.
+## 📑 Subscribe Section Integration
+
+User emails entered in the "Subscribe Us" section are stored in a **Google Sheet** using **Google Apps Script**. To make it work:
+
+1. Create a Google Sheet.
+2. Go to Extensions > Apps Script.
+3. Paste your Apps Script code to store form data.
+4. Deploy the script as a web app and connect your form's `action` attribute to the script URL.
+
+### 🌐 Live Demo  
+[🔗 View Live Website](https://homemade-food-delivery.netlify.app/)
+
+🙏 Credits
+
+Designed & developed by SyedDeveloper29
+Form submission powered by Web3Forms / Google Sheets
+
+📄 License
+
+This project is open source and available under the MIT License.
