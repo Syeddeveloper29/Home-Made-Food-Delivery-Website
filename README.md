@@ -18,9 +18,10 @@ This is a fully responsive **Homemade Food Delivery Website** built with HTML, C
 │
 ├── index.html
 ├── css/
-│   └── style.css
+│   ├── style.css
+│   └── phone.css
 ├── js/
-│   └── script.js
+│   └── function.js
 ├── images/
 │   └── (image files)
 
@@ -40,11 +41,11 @@ User emails entered in the "Subscribe Us" section are stored in a **Google Sheet
 ### 🌐 Live Demo  
 [🔗 View Live Website](https://homemade-food-delivery.netlify.app/)
 
-🙏 Credits
+## 🙏 Credits
 
 Designed & developed by SyedDeveloper29
 Form submission powered by Web3Forms / Google Sheets
 
-📄 License
+## 📄 License
 
 This project is open source and available under the MIT License.
