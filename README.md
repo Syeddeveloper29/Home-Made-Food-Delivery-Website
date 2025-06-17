@@ -15,14 +15,23 @@ This is a fully responsive **Homemade Food Delivery Website** built with HTML, C
 ## 📁 Project Structure
 
 /Home Made Food Delivery Website/
+
 │
+
 ├── index.html
+
 ├── css/
+
 │   ├── style.css
+
 │   └── phone.css
+
 ├── js/
+
 │   └── function.js
+
 ├── images/
+
 │   └── (image files)
 
 ## 📧 Contact Form Integration
